@@ -33,9 +33,9 @@ public class FillForm implements Task {
                 Enter.theValue(dt.get(0).getStrFirstName()).into(FIRSTNAME),
                 Enter.theValue(dt.get(0).getStrLastName()).into(INPUT_LASTNAME),
                 Enter.theValue(dt.get(0).getStrEmail()).into(EMAILADDRESS),
-                SelectFromOptions.byVisibleText("October").from(SELECT_MONTH),
-                SelectFromOptions.byVisibleText("15").from(SELECT_DAY),
-                SelectFromOptions.byVisibleText("1994").from(SELECT_YEAR),
+                SelectFromOptions.byVisibleText(dt.get(0).getStrDateOfBirth(2)).from(SELECT_MONTH),
+                SelectFromOptions.byVisibleText(dt.get(0).getStrDateOfBirth(1)).from(SELECT_DAY),
+                SelectFromOptions.byVisibleText(dt.get(0).getStrDateOfBirth(3)).from(SELECT_YEAR),
                 Click.on(BUTTONNEXT),
 
                 Enter.theValue(dt.get(0).getStrCity()+ Keys.DOWN).into(CITY),
@@ -43,8 +43,13 @@ public class FillForm implements Task {
                 Enter.theValue(dt.get(0).getStrPostalCode()).into(POSTALCODE),
                 Enter.theValue(dt.get(0).getStrCountry()).into(COUNTRY),
                 Click.on(NEXTDEVICES),
-                Enter.theValue("Window"+ Keys.DOWN).into(COMPUTER),
-                Hit.the(Keys.ARROW_DOWN).into(COMPUTER)
+                Enter.theValue(dt.get(0).getStrComputer()+ Keys.DOWN).into(COMPUTER),
+                Hit.the(Keys.ARROW_DOWN).into(COMPUTER),
+                Enter.theValue(dt.get(0).getStrComputerVersion()+ Keys.DOWN).into(COMPUTERVERSION),
+                Hit.the(Keys.ARROW_DOWN).into(COMPUTERVERSION),
+                Enter.theValue(dt.get(0).getStrLanguage()+ Keys.DOWN).into(SOLANGUAGE),
+                Hit.the(Keys.ARROW_DOWN).into(SOLANGUAGE)
+
 
 
         );

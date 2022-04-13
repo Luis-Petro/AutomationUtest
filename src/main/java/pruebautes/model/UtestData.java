@@ -27,8 +27,16 @@ public class UtestData {
         this.strEmail = strEmail;
     }
 
-    public String getStrDateOfBirth() {
-        return strDateOfBirth;
+    public String getStrDateOfBirth(int i) {
+
+        switch (i){
+            case 1: return "15";
+            case 2: return "June";
+            case 3: return  "1994";
+
+            default: return "";
+        }
+
     }
 
     public void setStrDateOfBirth(String strDateOfBirth) {

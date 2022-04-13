@@ -31,8 +31,8 @@ public class UtestForm  {
             located(net.serenitybdd.core.annotations.findby.By.xpath("//span[contains(text(), 'Next: Devices')]"));
     public static final Target COMPUTER = Target.the("Computer").
             located(net.serenitybdd.core.annotations.findby.By.xpath("//span[contains(@class, 'Select OS')]"));
-    static final Target COMPUTERVERSION = Target.the("SO Computer Version").
+    public static final Target COMPUTERVERSION = Target.the("SO Computer Version").
             located(net.serenitybdd.core.annotations.findby.By.xpath("//span[contains(@class, 'Select a Version')]"));
-    static final Target SOLANGUAGE= Target.the("SO Language").
+   public static final Target SOLANGUAGE= Target.the("SO Language").
             located(net.serenitybdd.core.annotations.findby.By.xpath("//span[contains(@class, 'Select OS language')]"));
 }
