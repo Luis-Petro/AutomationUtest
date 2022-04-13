@@ -6,6 +6,6 @@ Feature: I as a Utest user
   Scenario:Verify a successful registration in Utest
     Given than user enters the website
     When   you fill out the registration form
-      |strFirstName| strLastName|strEmail|
-      | luis       |   Perez   |    pepitoperez@ramau.com     |
+      |strFirstName| strLastName|           strEmail           |
+      | luis       |   Perez    |    pepitoperez@ramau.com     |
 
