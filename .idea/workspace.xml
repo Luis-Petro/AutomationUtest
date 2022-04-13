@@ -4,7 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a52b54bc-2215-4ada-910b-336c43e43767" name="Changes" comment="" />
+    <list default="true" id="b8cfa854-5614-4ca3-9e52-6ac2a825c355" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AutomationUtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02c7a0c274fbb3d639ad07e0b4402c82689d974d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06576b8c96e5329bd303ceabbbb4525d1387f4b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8a4b676a580c96ee6cb5ce11b57dbe98b69412" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e036c1789c03420fbd5ed99282a49cb28d7d927" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/462b3c5b2d9545690efc3f5f43e9afe636aa4253" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c3e1a7c53356e2632253cb3fa47e3bd60d6378f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9513727f2e08c8f2c906901987225ceff07506e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/09ccba64efd4f4b90685849bbcd33b03438f83b5eab6bdd2db731f840fb70042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2c404debb472abea4d8af442f1fc2dcd16ceadce4c2cfe3c4323e065b3fc8005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/41d0b3f3a7fdb7caae81c7499b7c0a01eaf84e2f87d0c10bc0766c4e953558cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/532c322b055cc8c0c59ea6e611a0af2838925a415976d4590368bf77a236456a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/62a66fe609239152d7f31284c756ecb62044b01f8d8b1e5af516c0fe314f37c9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/665802abe2386d34367b41d1726e458e9512632ce178642c664b916b13a0eb32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6c2759b9faaaba0d00894c379ca2eea79266e0c13b9516679ac6e6c79fed8fed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7224fbfcdeea709d97c05a7aab603a47ffba2ee9ba61b6c7c84ff91c1839d4f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/85473bf2a8ad69abf6ff2af75a772569bc465f8abca9dead6ad8ae02e3ecec1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b33ad3acd79a2dd3a596e43946f671b4561013c457ef737ab626a846603cc710.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b33fbff08658e2777bcde7dff97ab8938b9b5ce9a6ca2b885f77e3dab4f131d9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/b3684addcdaa68ae0014ab48d210be92e4e60fe9a912637991a5d8ba5feb64ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/decd9b3685814ed56cfcc8ebe97664bb518b08129cf969c49504461ca39abf2a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f48f1614729bb993cc04395099ba2945294fdc523a44c8aa815cb56fa8770ef2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1566884653801758047.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3238289609102165522.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4374133860568502499.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4648693866188764817.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource4908046974558783199.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource5957053245138837342.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6279110045637922989.html.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UtestData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/FillForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/NavigateTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/OpenUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/UtestForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/userinterface/UtestHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/UtestStepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Utest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Utest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-4f821a57c4bf4c632126a010f8438da7b80ee2e8e218f8dbc2ba58d31cf9eaa1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,101 +80,31 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="27k2Ecg0tc55gy0sO8dxmW1383Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="27kgx0tSUVpRX9UuQcLtWpX6veJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="dynamic.classpath" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.RunnerTags">
-    <configuration name="Feature: Utest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Utest.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="AutomationUtest.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Utest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify a successful registration in Utest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Utest.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="AutomationUtest.test" />
-      <option name="NAME_FILTER" value="^Verify a successful registration in Utest$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Verify a successful registration in Utest$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify a successful registration in Utest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Utest.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="AutomationUtest.test" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^$&quot;" />
-      <shortenClasspath name="MANIFEST" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <shortenClasspath name="MANIFEST" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="RunnerTags" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;runners.RunnerTags&quot;" />
+        <option name="scriptParameters" value="--tests &quot;pruebautes.runners.RunnerTags&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -128,20 +123,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RunnerTags" />
-        <item itemvalue="Cucumber Java.Scenario: Verify a successful registration in Utest" />
-        <item itemvalue="Cucumber Java.Feature: Utest" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a52b54bc-2215-4ada-910b-336c43e43767" name="Changes" comment="" />
-      <created>1649849654676</created>
+      <changelist id="b8cfa854-5614-4ca3-9e52-6ac2a825c355" name="Changes" comment="" />
+      <created>1649869740509</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649849654676</updated>
+      <updated>1649869740509</updated>
     </task>
     <servers />
   </component>
@@ -155,5 +147,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

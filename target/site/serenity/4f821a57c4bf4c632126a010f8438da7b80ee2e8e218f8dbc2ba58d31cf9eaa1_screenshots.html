@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-04-2022 10:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-04-2022 13:40</span>
     <br style="clear:left"/>
 </div>
 
@@ -139,12 +139,6 @@ To have access to all its functions
 
                         </td>
                         <td valign="top" align="right">
-                            <p class="tag">
-                                <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
-                                    (tag)</a>
-                                </span>
-                            </p>
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
@@ -180,8 +174,8 @@ To have access to all its functions
     <div id="contenttilttle">
             <div class="screenshotFailure panel panel-danger">
 
-                        <div class="panel-heading title="Cucumber exception: No such field model.UtestData.firstName">
-                            Cucumber exception: No such field model.UtestData.firstName
+                        <div class="panel-heading title="Element not interactable exception: The following error occurred: element not interactable">
+                            Element not interactable exception: The following error occurred: element not interactable
                         </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger" data-toggle="modal"
@@ -199,13 +193,17 @@ To have access to all its functions
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                    cucumber.runtime.CucumberException
+                                    org.openqa.selenium.ElementNotInteractableException
                                 </h4>
                             </div>
                             <div class="modal-body">
                                     <h5>
-                                        <pre>No such field model.UtestData.firstName</pre>
+                                        <pre>The following error occurred: element not interactable<br>  (Session info: chrome=100.0.4896.88)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF350WY6', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.20 (f9d71f93d32a..., userDataDir: C:\Users\lpetro\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57480}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 421a856dbb965c2d10b2de231dc72bfe</pre>
                                     </h5>
+                                    pruebautes.tasks.FillForm.performAs(FillForm.java
+                                    :31) <br>
+                                    pruebautes.stepdefinitions.UtestStepDefinitions.youFillOutTheRegistrationForm(UtestStepDefinitions.java
+                                    :30) <br>
                                     cucumber.runner.Runner.runPickle(Runner.java
                                     :80) <br>
                             </div>
@@ -221,18 +219,25 @@ To have access to all its functions
 
 
                 <div class="panel-body">
-                    <a href="pagesource5284624145281305652.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource8585479289364940244.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="fb9aa40ecc39dcce2b1116bd6dc51bd8859b1830f7d53e80cf021c8da0e7c411.png" title="Given than Luis enters the website" width="1034"/>
-                <img src="cda1a66da316d0ac6904ad26b77239c964ce96d83d2404ceddb10e0f0a19d805.png" title="Luis opens the Utest home page" width="1366"/>
-                <img src="8953bba9cdd3d1d9f11cebf7a210bbea5ecf43a33e790ef4b98eaad1d9d57df1.png" title="And goes to Join Today" width="1034"/>
-                <img src="55e6485fb90280e128f6760dcf2a2e31c59e1e1860a206c805cb437140e7a9d3.png" title="Luis clicks on Button join today" width="1034"/>
-                <img src="a7f1114e9f38711b06f06d5687791c274a06d73637dd4f2dc540475e7123203f.png" title="When you fill out the registration form
-| FirstName |
-| lUISPETRO |: <span class='error-color'>ERROR</span>" width="1034"/>
+                <img src="2a12e3006f543e7bfbfc3a23a1247f6d4a1e4378c5abec22010c8faef22c8e9b.png" title="Given than user enters the website" width="1366"/>
+                <img src="2a12e3006f543e7bfbfc3a23a1247f6d4a1e4378c5abec22010c8faef22c8e9b.png" title="user opens the Utest home page" width="1366"/>
+                <img src="24f4cc54b95871cf463e124febfb0d9c6bbe6f5f3536265df3a8254648314fcb.png" title="user clicks on Button join today" width="1366"/>
+                <img src="f48f1614729bb993cc04395099ba2945294fdc523a44c8aa815cb56fa8770ef2.png" title="user enters 'luis' into First Name" width="1366"/>
+                <img src="7224fbfcdeea709d97c05a7aab603a47ffba2ee9ba61b6c7c84ff91c1839d4f5.png" title="user enters 'Perez' into Register lastname user" width="1366"/>
+                <img src="6a1952614d5b48582200205d688485ae02d55ca597a855f1908064c9fc62a3fa.png" title="user enters 'Catatumbo@gmail.com' into Register lastname user" width="1366"/>
+                <img src="0500d83a62750042e94b9a8a0239de03fef5c1cf4011090e62a7a154aaceee2c.png" title="user select October on Last Name" width="1366"/>
+                <img src="24808f2421ef7b367918de35d98126e9a72639e2fe67ccc1438611e71758017a.png" title="user select 15 on Last Name" width="1366"/>
+                <img src="67e7e836c0769ee1112a82ec83ec89dd402cec30737890d29c56187fae879706.png" title="user select 1994 on Last Name" width="1366"/>
+                <img src="9380655f27e74b1331e001086c43808141ba7c93f9207396990f6a5e891da944.png" title="user clicks on apartado simular" width="1366"/>
+                <img src="9e93dc748e23faaf523cc1307dd201de9e361903499c686b31d9686bf0b7fd9b.png" title="user enters 'Monter&iacute;a' into Last Name" width="1366"/>
+                <img src="e88cf1c8f72a5bc28f5b4c1c203c3567f36ddf09419be43aaa500b9712eabafa.png" title="user types 'ARROW_DOWN' in Last Name" width="1366"/>
+                <img src="e7c72410f3731ef523d420a62866374369210c35ea58a36bce2f5329cd970d47.png" title="user enters '102029' into Last Name" width="1366"/>
+                <img src="5eb0bb9a797621879d2caeac1c6501ece183bdf90327833236ceaac14cf41190.png" title="user enters 'Venezuela' into apartado simular: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
