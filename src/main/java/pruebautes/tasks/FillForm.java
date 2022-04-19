@@ -38,17 +38,45 @@ public class FillForm implements Task {
                 SelectFromOptions.byVisibleText(dt.get(0).getStrDateOfBirth(3)).from(SELECT_YEAR),
                 Click.on(BUTTONNEXT),
 
-                Enter.theValue(dt.get(0).getStrCity()+ Keys.DOWN).into(CITY),
+                Enter.theValue(dt.get(0).getStrCity()).into(CITY),
                 Hit.the(Keys.ARROW_DOWN).into(CITY),
-                Enter.theValue(dt.get(0).getStrPostalCode()).into(POSTALCODE),
-                Enter.theValue(dt.get(0).getStrCountry()).into(COUNTRY),
+                Hit.the(Keys.ENTER).into(CITY),
+                Enter.theValue(dt.get(0).getStrPostalCode() + Keys.DOWN).into(POSTALCODE),
+                Hit.the(Keys.ENTER).into(POSTALCODE),
+                //Enter.theValue(dt.get(0).getStrCountry()+ Keys.ENTER).into(COUNTRY),
                 Click.on(NEXTDEVICES),
-                Enter.theValue(dt.get(0).getStrComputer()+ Keys.DOWN).into(COMPUTER),
-                Hit.the(Keys.ARROW_DOWN).into(COMPUTER),
-                Enter.theValue(dt.get(0).getStrComputerVersion()+ Keys.DOWN).into(COMPUTERVERSION),
-                Hit.the(Keys.ARROW_DOWN).into(COMPUTERVERSION),
-                Enter.theValue(dt.get(0).getStrLanguage()+ Keys.DOWN).into(SOLANGUAGE),
-                Hit.the(Keys.ARROW_DOWN).into(SOLANGUAGE)
+
+                Click.on(COMPUTER),
+                Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_COMPUTER).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+                Click.on(SELECT_VERSION),
+                Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_VERSION).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+                Click.on(SELECT_LANGUAGE),
+                Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_LANGUAGE).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+
+                Click.on(SELECT_MOBILE),
+                Enter.theValue(dt.get(0).getStrMobileDevice()).into(INPUT_MOBILE).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+                Click.on(SELECT_MODEL),
+                Enter.theValue(dt.get(0).getStrModelMobile()).into(INPUT_MODEL).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+                Click.on(SELECT_OPERATING_SYSTEM),
+                Enter.theValue(dt.get(0).getStrSoMobile()).into(INPUT_OPERATING_SYSTEM).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+
+
+                Click.on(NEXT_LAST_STEP),
+
+
+                Enter.theValue(dt.get(0).getStrPassword()).into(INPUT_PASSWORD),
+                Enter.theValue(dt.get(0).getStrPassword()).into(INPUT_CONFIRM_PASSWORD),
+
+                Click.on(CHECKBOX_POLICY),
+                Click.on(CHECKBOX_TERMS),
+                Click.on(TEXT_FINAL)
+
+
 
 
 

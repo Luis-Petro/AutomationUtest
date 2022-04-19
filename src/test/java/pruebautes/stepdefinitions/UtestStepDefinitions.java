@@ -3,6 +3,7 @@ package pruebautes.stepdefinitions;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pruebautes.model.UtestData;
 import net.serenitybdd.screenplay.actors.OnStage;
@@ -21,6 +22,7 @@ public class UtestStepDefinitions {
     public void  setStage (){
         OnStage.setTheStage(new OnlineCast());
     }
+
     @Given("^than user enters the website$")
     public void thanUserEntersTheWebsite() {OnStage.theActorCalled("user").wasAbleTo(OpenUp.thePage());}
 
@@ -28,5 +30,9 @@ public class UtestStepDefinitions {
     @When("^you fill out the registration form$")
     public void youFillOutTheRegistrationForm(List<UtestData>utestData) {
         theActorInTheSpotlight().attemptsTo(FillForm.onTheForm(utestData));
+    }
+
+    @Then("^check for successful registration$")
+    public void checkForSuccessfulRegistration() {
     }
 }

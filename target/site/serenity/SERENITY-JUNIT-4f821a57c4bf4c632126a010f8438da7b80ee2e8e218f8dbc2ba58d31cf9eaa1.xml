@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="I as a Utest user" skipped="0" tests="1" time="19.69" timestamp="2022-04-13 05:03:31"><testcase name="Verify a successful registration in Utest"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
-pruebautes.tasks.FillForm.performAs(FillForm.java:31)&#13;
-pruebautes.stepdefinitions.UtestStepDefinitions.youFillOutTheRegistrationForm(UtestStepDefinitions.java:30)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="I as a Utest user" skipped="0" tests="1" time="30.15" timestamp="2022-04-19 10:52:50"><testcase name="Verify a successful registration in Utest"/></testsuite>
