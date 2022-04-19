@@ -33,6 +33,8 @@ public class FillForm implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(BUTTONJOINTODAY),
+
+                //STEP ONE
                 Enter.theValue(dt.get(0).getStrFirstName()).into(FIRSTNAME),
                 Enter.theValue(dt.get(0).getStrLastName()).into(INPUT_LASTNAME),
                 Enter.theValue(dt.get(0).getStrEmail()).into(EMAILADDRESS),
@@ -41,14 +43,14 @@ public class FillForm implements Task {
                 SelectFromOptions.byVisibleText(dt.get(0).getStrDateOfBirth(3)).from(SELECT_YEAR),
                 Click.on(BUTTONNEXT),
 
+                //STEP TWO
                 Enter.theValue(dt.get(0).getStrCity()).into(CITY),
                 Hit.the(Keys.ARROW_DOWN).into(CITY),
                 Hit.the(Keys.ENTER).into(CITY),
-                Enter.theValue(dt.get(0).getStrPostalCode() + Keys.DOWN).into(POSTALCODE),
-                Hit.the(Keys.ENTER).into(POSTALCODE),
-                //Enter.theValue(dt.get(0).getStrCountry()+ Keys.ENTER).into(COUNTRY),
+                Enter.theValue(dt.get(0).getStrPostalCode()).into(POSTALCODE),
                 Click.on(NEXTDEVICES),
 
+                //STEP THREE
                 Click.on(COMPUTER),
                 Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_COMPUTER).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
 
@@ -68,18 +70,16 @@ public class FillForm implements Task {
                 Click.on(SELECT_OPERATING_SYSTEM),
                 Enter.theValue(dt.get(0).getStrSoMobile()).into(INPUT_OPERATING_SYSTEM).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
 
-
                 Click.on(NEXT_LAST_STEP),
 
-
+                //STEP FOUR
                 Enter.theValue(dt.get(0).getStrPassword()).into(INPUT_PASSWORD),
                 Enter.theValue(dt.get(0).getStrPassword()).into(INPUT_CONFIRM_PASSWORD),
 
                 Click.on(CHECKBOX_POLICY),
                 Click.on(CHECKBOX_TERMS),
-                Click.on(TEXT_FINAL)
-
-
+                Click.on(TEXT_FINAL),
+                Click.on(FINAL)
 
         );
 

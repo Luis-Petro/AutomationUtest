@@ -38,6 +38,7 @@ public class UtestStepDefinitions {
 
     @Then("^check for successful registration$")
     public void checkForSuccessfulRegistration(List<UtestData>utestData) {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(), Matchers.equalTo(utestData.get(0).getStrVerificationText())));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer
+                .toThe(utestData.get(0).getStrVerificationText())));
     }
 }
