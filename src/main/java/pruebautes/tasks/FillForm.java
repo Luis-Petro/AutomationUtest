@@ -6,12 +6,15 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pruebautes.model.UtestData;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import org.openqa.selenium.Keys;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 import static pruebautes.userinterface.UtestForm.*;
@@ -75,8 +78,6 @@ public class FillForm implements Task {
                 Click.on(CHECKBOX_POLICY),
                 Click.on(CHECKBOX_TERMS),
                 Click.on(TEXT_FINAL)
-
-
 
 
 

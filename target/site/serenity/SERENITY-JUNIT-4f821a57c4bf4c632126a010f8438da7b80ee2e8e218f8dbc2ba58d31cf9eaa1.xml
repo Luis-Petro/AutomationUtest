@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="I as a Utest user" skipped="0" tests="1" time="30.15" timestamp="2022-04-19 10:52:50"><testcase name="Verify a successful registration in Utest"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="I as a Utest user" skipped="0" tests="1" time="31.17" timestamp="2022-04-19 12:04:11"><testcase name="Verify a successful registration in Utest"><error message="No such field pruebautes.model.UtestData.getStrVerificationText" type="cucumber.runtime.CucumberException">No such field pruebautes.model.UtestData.getStrVerificationText</error><system-err>No such field pruebautes.model.UtestData.getStrVerificationText&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

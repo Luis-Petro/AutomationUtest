@@ -57,4 +57,6 @@ public class UtestForm  {
     public static final Target CHECKBOX_POLICY = Target.the("checkbox police").located(By.id("privacySetting"));
     public static final Target TEXT_FINAL = Target.the("text to validate this test").located(By.xpath("//a[@id='laddaBtn']//span"));
 
+
+    public static final Target TEXT_MESSAGE = Target.the("Text Message").located(By.xpath("//*[@id='mainContent']/div/div/div[1]/div/h1"));
 }
