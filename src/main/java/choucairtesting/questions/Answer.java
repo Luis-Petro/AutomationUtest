@@ -1,5 +1,6 @@
 package choucairtesting.questions;
 
+import choucairtesting.userinterface.UtestSuccessfulRegistrationPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
@@ -18,7 +19,7 @@ public class Answer implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         boolean result;
-        String welcomeText = Text.of(UtestFormStepOne.TEXT_MESSAGE).viewedBy(actor).asString();
+        String welcomeText = Text.of(UtestSuccessfulRegistrationPage.TEXT_MESSAGE).viewedBy(actor).asString();
 
         if (strConfirmWelcome.equals(welcomeText)) {
             result = true;

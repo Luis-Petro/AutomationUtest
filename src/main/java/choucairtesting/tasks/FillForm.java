@@ -7,11 +7,7 @@ import choucairtesting.model.UtestData;
 import net.serenitybdd.screenplay.actions.Hit;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import org.openqa.selenium.Keys;
-
 import java.util.List;
-
-
-
 import static choucairtesting.userinterface.UtestFormStepOne.*;
 import static choucairtesting.userinterface.UtestFormStepTwo.*;
 import static choucairtesting.userinterface.UtestFormStepThree.*;
@@ -24,9 +20,6 @@ public class FillForm implements Task {
     public FillForm(List<UtestData> dt) {
         this.dt = dt;
     }
-
-
-
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -43,11 +36,17 @@ public class FillForm implements Task {
                 Click.on(BUTTONNEXT),
 
                 //STEP TWO
+                Click.on(CITY),
                 Enter.theValue(dt.get(0).getStrCity()).into(CITY),
                 Hit.the(Keys.ARROW_DOWN).into(CITY),
                 Hit.the(Keys.ENTER).into(CITY),
                 Enter.theValue(dt.get(0).getStrPostalCode()).into(POSTALCODE),
+                Click.on(SELECT_COUNTRY),
+                Enter.theValue(dt.get(0).getStrCountry()).into(INPUT_COUNTRY),
+                Hit.the(Keys.ARROW_DOWN).into(INPUT_COUNTRY),
+                Hit.the(Keys.ENTER).into(INPUT_COUNTRY),
                 Click.on(NEXTDEVICES),
+
 
                 //STEP THREE
                 Click.on(COMPUTER),
@@ -79,10 +78,7 @@ public class FillForm implements Task {
                 Click.on(CHECKBOX_TERMS),
                 Click.on(TEXT_FINAL),
                 Click.on(FINAL)
-
         );
-
-
     }
 
     public static FillForm onTheForm(List<UtestData> dt) {

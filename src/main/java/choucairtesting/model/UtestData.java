@@ -1,4 +1,5 @@
 package choucairtesting.model;
+import  choucairtesting.util.utilities;
 
 public class UtestData {
 
@@ -19,6 +20,8 @@ public class UtestData {
     private String strPassword ;
     private String strVerificationText;
 
+
+
     public String getStrEmail() {
         return strEmail;
     }
@@ -29,13 +32,7 @@ public class UtestData {
 
     public String getStrDateOfBirth(int i) {
 
-        switch (i){
-            case 1: return "15";
-            case 2: return "June";
-            case 3: return  "1994";
-
-            default: return "";
-        }
+       return utilities.ParseDate(i, strDateOfBirth);
 
     }
 
@@ -140,7 +137,6 @@ public class UtestData {
     }
 
 
-
     public String getStrFirstName() {
         return strFirstName;
     }
@@ -156,11 +152,6 @@ public class UtestData {
     public void setStrLastName(String strLastName) {
         this.strLastName = strLastName;
     }
-
-
-
-
-
 
 
 }
