@@ -24,7 +24,12 @@ public class UtestStepDefinitions {
 
     @When("^you fill out the registration form$")
     public void youFillOutTheRegistrationForm(List<UtestData>utestData) {
-        theActorInTheSpotlight().attemptsTo(FillForm.onTheForm(utestData));
+        theActorInTheSpotlight().attemptsTo(
+                FillFormStepOne.onTheForm(utestData),
+                FillFormStepTwo.onTheForm(utestData),
+                FillFormStepThree.onTheForm(utestData),
+                FillFormStepFour.onTheForm(utestData)
+                );
     }
 
     @Then("^check for successful registration$")
