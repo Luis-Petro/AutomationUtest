@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="I as a Utest user" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-20T17:29:15" hostname="CHMEPPF350WY6" time="38.557">
+<testsuite name="I as a Utest user" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-22T16:41:51" hostname="CHMEPPF350WY6" time="39.524">
   <properties/>
-  <testcase name="Verify a successful registration in Utest" classname="I as a Utest user" time="38.557"/>
+  <testcase name="Verify a successful registration in Utest" classname="I as a Utest user" time="39.524"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Apr 20, 2022 12:29:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Apr 22, 2022 11:41:52 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 100.0.4896.20 (f9d71f93d32a6487809d6f35a9670c879fe97dfe-refs/branch-heads/4896@{#203}) on port 31969
+Starting ChromeDriver 100.0.4896.20 (f9d71f93d32a6487809d6f35a9670c879fe97dfe-refs/branch-heads/4896@{#203}) on port 12083
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 20, 2022 12:29:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Apr 22, 2022 11:41:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  

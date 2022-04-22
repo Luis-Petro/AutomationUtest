@@ -15,7 +15,6 @@ import static choucairtesting.userinterface.UtestFormStepThree.*;
 public class FillFormStepThree implements Task {
 
     private List<UtestData> dt;
-
     public FillFormStepThree(List<UtestData> dt) {
         this.dt = dt;
     }
@@ -29,10 +28,10 @@ public class FillFormStepThree implements Task {
                 Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_COMPUTER).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
 
                 Click.on(SELECT_VERSION),
-                Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_VERSION).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+                Enter.theValue(dt.get(0).getStrComputerVersion()).into(INPUT_VERSION).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
 
                 Click.on(SELECT_LANGUAGE),
-                Enter.theValue(dt.get(0).getStrComputer()).into(INPUT_LANGUAGE).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
+                Enter.theValue(dt.get(0).getStrPcLanguage()).into(INPUT_LANGUAGE).thenHit(Keys.ARROW_DOWN,Keys.ENTER),
 
 
                 Click.on(SELECT_MOBILE),
