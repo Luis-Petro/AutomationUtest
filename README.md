@@ -4,7 +4,7 @@ https://www.utest.com/
 Proyecto de automatización del registro de Utes
 Usando:
 - Serenity BDD
-- Cucumber
+- Cucumber (Gherkin)
 - Screamplay
 - Java
 
